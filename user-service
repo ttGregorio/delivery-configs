@@ -16,7 +16,7 @@ eureka:
 spring:
     datasource:
         driver-class-name: com.mysql.jdbc.Driver
-        password: '1234'
+        password: 'nex2you'
         platform: mysql
         url: jdbc:mysql://localhost/nex2you_expertise_novo?verifyServerCertificate=false&useSSL=false&requireSSL=false
         username: root
