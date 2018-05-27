@@ -16,8 +16,8 @@ eureka:
 security:
     oauth2:
         client:
-            access-token-validity-seconds: 1800
-            authorized-grant-types: password,refresh_token
+            access-token-validity-seconds: 5000
+            authorized-grant-types: password,refresh_token,trust
             client-id: coderef
             client-secret: $2a$10$p9Pk0fQNAQSesI4vuvKA0OZanDD2
             resource-ids: resources
