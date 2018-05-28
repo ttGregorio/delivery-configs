@@ -13,6 +13,12 @@ eureka:
   server:
     wait-time-in-ms-when-sync-empty: 3000
 
+zuul:
+  routes:
+    producer:
+      url=http://${eureka.instance.hostname}:8080
+
+
 spring:
     datasource:
         driver-class-name: com.mysql.jdbc.Driver
