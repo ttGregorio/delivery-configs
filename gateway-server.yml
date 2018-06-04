@@ -21,13 +21,15 @@ zuul:
   routes:
     auth-server:
       url: http://localhost:9092
-    estados-server:
-      url: http://localhost:9094
     perfis-server:
       url: http://localhost:9093
+    estados-server:
+      url: http://localhost:9094
     enderecos-server:
       url: http://localhost:9095
-
+    bancos-server:
+      url: http://localhost:9096
+      
 authserver:
   hostname: http://localhost:9092
 security:
