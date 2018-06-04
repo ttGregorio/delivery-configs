@@ -33,6 +33,8 @@ zuul:
       url: http://localhost:9097
     veiculos-server:
       url: http://localhost:9098
+    tipos-contas-server:
+      url: http://localhost:9099
       
 authserver:
   hostname: http://localhost:9092
