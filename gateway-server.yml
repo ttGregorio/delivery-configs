@@ -29,6 +29,10 @@ zuul:
       url: http://localhost:9095
     bancos-server:
       url: http://localhost:9096
+    fabricantes-server:
+      url: http://localhost:9097
+    veiculos-server:
+      url: http://localhost:9098
       
 authserver:
   hostname: http://localhost:9092
