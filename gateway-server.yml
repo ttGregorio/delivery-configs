@@ -35,7 +35,10 @@ zuul:
       url: http://localhost:9098
     tipos-contas-server:
       url: http://localhost:9099
-      
+    contas-mensais-server:
+      url: http://localhost:9100
+    contas:
+      url: http://localhost:9101
 authserver:
   hostname: http://localhost:9092
 security:
