@@ -39,7 +39,7 @@ zuul:
       url: http://localhost:9100
     contas:
       url: http://localhost:9101
-    contas:
+    sindicancias:
       url: http://localhost:9102
 authserver:
   hostname: http://localhost:9092
