@@ -19,23 +19,23 @@ ribbon:
     
 zuul:
   routes:
-    auth-server:
+    users:
       url: http://localhost:9092
-    perfis-server:
+    perfis:
       url: http://localhost:9093
-    estados-server:
+    estados:
       url: http://localhost:9094
-    enderecos-server:
+    enderecos:
       url: http://localhost:9095
-    bancos-server:
+    bancos:
       url: http://localhost:9096
-    fabricantes-server:
+    fabricantes:
       url: http://localhost:9097
-    veiculos-server:
+    veiculos:
       url: http://localhost:9098
-    tipos-contas-server:
+    tipos-contas:
       url: http://localhost:9099
-    contas-mensais-server:
+    contas-mensais:
       url: http://localhost:9100
     contas:
       url: http://localhost:9101
