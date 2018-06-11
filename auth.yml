@@ -29,7 +29,7 @@ spring:
         password: 'pa$$word'
         platform: mysql
         url: jdbc:mysql://localhost/vivere_teste?verifyServerCertificate=false&useSSL=false&requireSSL=false
-        username: username
+        username: vivere
     jpa:
         database-platform: org.hibernate.dialect.MySQLDialect
         generate-ddl: false
