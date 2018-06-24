@@ -41,6 +41,8 @@ zuul:
       url: http://localhost:9101
     sindicancias:
       url: http://localhost:9102
+    depoimentos:
+      url: http://localhost:9103
 authserver:
   hostname: http://localhost:9092
 security:
