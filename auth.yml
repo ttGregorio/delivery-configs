@@ -26,9 +26,9 @@ security:
 spring:
     datasource:
         driver-class-name: com.mysql.jdbc.Driver
-        password: 'Di@blo01'
+        password: 'vivere'
         platform: mysql
-        url: jdbc:mysql://localhost/vivere_teste?verifyServerCertificate=false&useSSL=false&requireSSL=false
+        url: jdbc:mysql://127.0.0.1:3306/vivere_teste?verifyServerCertificate=false&useSSL=false&requireSSL=false
         username: root
     jpa:
         database-platform: org.hibernate.dialect.MySQLDialect
